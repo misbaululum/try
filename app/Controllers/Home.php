@@ -107,11 +107,7 @@ class Home extends BaseController
                 return redirect()->back();
             } else {
                 $this->session->setFlashdata('error', 'Terjadi Kesalahan.');
-<<<<<<< HEAD
-                return redirect()->to(base_url('egister'))->withInput();
-=======
                 return redirect()->to(base_url('register'))->withInput();
->>>>>>> 6e527b6 (logout change)
             }
         }
     }
@@ -129,8 +125,6 @@ class Home extends BaseController
         return view("form", $data);
     }
 
-<<<<<<< HEAD
-=======
     public function logout()
     {
         // Anda dapat menambahkan logika logout di sini, seperti menghapus sesi atau menghancurkan cookie
@@ -143,6 +137,5 @@ class Home extends BaseController
         // Setelah logout, Anda bisa mengarahkan pengguna ke halaman login atau halaman lain yang sesuai
         return redirect()->to('login'); // Gantilah '/login' dengan URL halaman login yang sesuai
     }
->>>>>>> 6e527b6 (logout change)
     
 }

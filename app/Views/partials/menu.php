@@ -16,12 +16,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('form') ?>">Form</a>
                     </li>
-<<<<<<< HEAD
-=======
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('logout') ?>">Logout</a>
                     </li>
->>>>>>> 6e527b6 (logout change)
 
                 <?php else : ?>
                     <li class="nav-item">
@@ -31,10 +28,11 @@
                         <a class="nav-link" href="<?= base_url('register') ?>">Register</a>
                     </li>
                 <?php endif; ?>
-<<<<<<< HEAD
-=======
 
->>>>>>> 6e527b6 (logout change)
+                
+                    
+            
+
             </ul>
         </div>
     </div>

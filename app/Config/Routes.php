@@ -12,3 +12,9 @@ $routes->post('register', 'Home::registerPost');
 $routes->get('form', 'Home::form');
 
 $routes->get('pdf', 'PDFController::viewPDF');
+<<<<<<< HEAD
+=======
+
+$routes->get('logout', 'Home::logout');
+
+>>>>>>> 6e527b6 (logout change)

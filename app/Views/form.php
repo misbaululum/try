@@ -20,14 +20,22 @@
   
   <a class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
+<<<<<<< HEAD
       <h5 class="mb-1">1. form cuti</h5>
+=======
+      <h5 class="mb-1">1. Employee Request</h5>
+>>>>>>> 6e527b6 (logout change)
     </div>
     <br>
 
     <div class="container">
     <div class="row">
         <div class="col">
+<<<<<<< HEAD
             <object data="public/pdf/contoh.pdf" type="public/pdf" width="100%" height="500px">
+=======
+            <object data="public/pdf/Employee Request.pdf" type="public/pdf" width="100%" height="500px">
+>>>>>>> 6e527b6 (logout change)
                 <p>Tampilan file pdf dan akses download. <a class="btn btn-primary" href="public/pdf/contoh.pdf" role="button">Unduh PDF</a> <br> <br> Bisa juga langsung mengisi pada tampilan.</p>
             </object>
         </div>
@@ -38,7 +46,11 @@
         <div class="row">
             <div class="col">
                 <!-- Embed PDF using iframe -->
+<<<<<<< HEAD
                 <iframe src="<?= base_url('public/pdf/contoh.pdf'); ?>" width="100%" height="500px"></iframe>
+=======
+                <iframe src="<?= base_url('public/pdf/Employee Request.pdf'); ?>" width="100%" height="500px"></iframe>
+>>>>>>> 6e527b6 (logout change)
             </div>
         </div>
     </div>
@@ -51,14 +63,22 @@
 
   <a class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
+<<<<<<< HEAD
       <h5 class="mb-1">1. form cuti</h5>
+=======
+      <h5 class="mb-1">2. form cuti</h5>
+>>>>>>> 6e527b6 (logout change)
     </div>
     <br>
 
     <div class="container">
     <div class="row">
         <div class="col">
+<<<<<<< HEAD
             <object data="public/pdf/contoh.pdf" type="public/pdf" width="100%" height="500px">
+=======
+            <object data="public/pdf/Employee Request.pdf" type="public/pdf" width="100%" height="500px">
+>>>>>>> 6e527b6 (logout change)
                 <p>Tampilan file pdf dan akses download. <a class="btn btn-primary" href="public/pdf/contoh.pdf" role="button">Unduh PDF</a> <br> <br> Bisa juga langsung mengisi pada tampilan.</p>
             </object>
         </div>
@@ -69,7 +89,11 @@
         <div class="row">
             <div class="col">
                 <!-- Embed PDF using iframe -->
+<<<<<<< HEAD
                 <iframe src="<?= base_url('public/pdf/contoh.pdf'); ?>" width="100%" height="500px"></iframe>
+=======
+                <iframe src="<?= base_url('public/pdf/Employee Request.pdf'); ?>" width="100%" height="500px"></iframe>
+>>>>>>> 6e527b6 (logout change)
             </div>
         </div>
     </div>
@@ -82,7 +106,11 @@
 
   <a class="list-group-item list-group-item-action">
     <div class="d-flex w-100 justify-content-between">
+<<<<<<< HEAD
       <h5 class="mb-1">1. form cuti</h5>
+=======
+      <h5 class="mb-1">3. form cuti</h5>
+>>>>>>> 6e527b6 (logout change)
     </div>
     <br>
 

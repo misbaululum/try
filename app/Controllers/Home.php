@@ -112,16 +112,17 @@ class Home extends BaseController
         }
     }
 
-    public function form() {
+    public function form()
+    {
 
-        if(!checkAuthentication()){
+        if (!checkAuthentication()) {
             return redirect()->to(base_url());
         }
 
         $data = [
             "title" => "Formulir"
         ];
-        
+
         return view("form", $data);
     }
 
@@ -129,7 +130,7 @@ class Home extends BaseController
     {
         // Anda dapat menambahkan logika logout di sini, seperti menghapus sesi atau menghancurkan cookie
         // Contoh: Menghapus sesi
-        if(!checkAuthentication()){
+        if (!checkAuthentication()) {
             return redirect()->to(base_url());
         }
         session()->destroy();
@@ -137,5 +138,4 @@ class Home extends BaseController
         // Setelah logout, Anda bisa mengarahkan pengguna ke halaman login atau halaman lain yang sesuai
         return redirect()->to('login'); // Gantilah '/login' dengan URL halaman login yang sesuai
     }
-    
 }

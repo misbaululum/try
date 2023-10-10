@@ -15,3 +15,4 @@ $routes->get('pdf', 'PDFController::viewPDF');
 
 $routes->get('logout', 'Home::logout');
 
+$routes->get('user', 'User::index');

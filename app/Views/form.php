@@ -39,15 +39,6 @@
             <div class="col">
               <!-- Embed PDF using iframe -->
               <iframe src="<?= base_url('public/pdf/Employee Request.pdf'); ?>" width="100%" height="500px"></iframe>
-
-              <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-                <iframe width="560" <!-- Lebar iframe jika skala browser sangat kecil -->
-                  height="315" <!-- Tinggi iframe jika skala browser sangat kecil -->
-                  src="https://www.youtube.com/watch?v=f3nh9GzQ1ZM"
-                  frameborder="0"
-                  allowfullscreen
-                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-                  ></iframe>
               </div>
 
             </div>

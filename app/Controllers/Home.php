@@ -40,7 +40,7 @@ class Home extends BaseController
     public function login()
     {
         if (checkAuthentication()) {
-            return redirect()->to(base_url());
+            return redirect()->to(base_url('user'));
         }
 
         $data = [

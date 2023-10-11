@@ -11,6 +11,7 @@ use Psr\Log\LoggerInterface;
 class Home extends BaseController
 {
     protected $modelLogin;
+    protected $helpers = ['custom'];
     public $cabang;
 
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)

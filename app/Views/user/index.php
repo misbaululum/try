@@ -33,17 +33,37 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-fw fa-industry"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Dashboard Admin</div>
+                <div class="sidebar-brand-text mx-3">Dashboard</div>
             </a>
 
             <!-- Divider -->
-            <hr class="sidebar-divider my-0">
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Dashboard
+            </div>
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Form
+            </div>
+
+            <!-- Nav Item - Charts -->
+            <li class="nav-item">
+                <a class="nav-link" href="<?= base_url('form_admin') ?>">
+                    <i class="fas fa-fw fa-file-pdf"></i>
+                    <span>Form</span></a>
             </li>
 
             <!-- Divider -->
@@ -202,7 +222,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $nik['nik']; ?></span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hi, <?= userLogin()->nik ?></span>
                                 <img class="img-profile rounded-circle" src="<?= base_url('public/admin/'); ?>img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
@@ -220,7 +240,7 @@
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="<?= base_url('logout') ?>" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="<?= base_url('login') ?>" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>

@@ -117,14 +117,14 @@ class Home extends BaseController
     {
 
         if (!checkAuthentication()) {
-            return redirect()->to(base_url());
+            return redirect()->to(base_url('user'));
         }
 
         $data = [
             "title" => "Formulir"
         ];
 
-        return view("form", $data);
+        return view("form/get", $data);
     }
 
     public function logout()

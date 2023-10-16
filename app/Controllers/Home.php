@@ -22,6 +22,7 @@ class Home extends BaseController
             'Primadaya_Binjai',
             'Primadaya_Cileungsi',
             'Primadaya_Lampung',
+            'Primadaya_Solo',
             'Primadaya_Sukambumi',
             'Primadaya_Tangerang'
         ];

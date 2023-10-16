@@ -63,10 +63,18 @@ class Home extends BaseController
             $this->session->setFlashdata('errors', $validation->getErrors());
             return redirect()->back()->withInput();
         } else {
+            // Melakukan proses login
             $loginResult = $this->modelLogin->login();
 
             if ($loginResult === 'success') {
-                return redirect()->back();
+                // Jika login berhasil, ambil 'nik' dari hasil login
+                $nik = $loginResult['nik'];
+
+                // Set session 'nik' dengan nilai yang sesuai
+                $this->session->set('nik', $nik);
+
+                // Kembalikan pengguna ke halaman yang sesuai
+                return redirect()->to(base_url('dashboard'));
             } else {
                 $this->session->setFlashdata('error', 'Terjadi kesalahan');
                 return redirect()->to(base_url('login'))->withInput();
